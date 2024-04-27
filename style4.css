@@ -1,0 +1,142 @@
+#profile{
+    /* border-radius: 50%; */
+    width:500px;
+    height: 450px;
+}
+#mentorprofile{
+display: flex;
+gap: 100px;
+margin-left: 150px;
+font-size: xx-large;
+margin-top: 100px;
+}
+#name{
+    display: flex;
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+body{
+    background-color: rgb(246, 191, 246);
+}
+#navbar{
+    font-size: 30px;
+    margin-left: 100px;
+    justify-content: space-between;
+    display: flex;
+    gap: 150px;
+}
+a{
+    text-decoration: none;
+}
+#details{
+    font-size: 40px;
+    gap: 200px;
+}
+#logo{
+    width: 100px;
+    height: 80px;
+}
+
+@media screen and (min-width:280px) and (max-width:460px){
+    #details{
+        font-size: 20px;
+        gap: 10px;
+    }
+    #navbar{
+        font-size: 15px;
+        margin-left: 0px;
+        display: flex;
+        gap: 0px;
+    }
+    #mentorprofile{
+        display: grid;
+        gap: 0px;
+        margin-left: 0px;
+        font-size:smaller;
+        margin-top: 10px;
+        }
+        #profile{
+            /* border-radius: 50%; */
+            width:270px;
+            height: 300px;
+        }
+        h2{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        #logo{
+            width: 30px;
+            height: 30px;
+        }
+
+}
+
+
+
+
+@media  screen and (min-width:768px) and (max-width: 912px) {
+
+    #profile{
+        /* border-radius: 50%; */
+        width:700px;
+        height: 500px;
+    }
+    #mentorprofile{
+    display:grid;
+    gap: 10px;
+    margin-left: 30px;
+    font-size: xx-large;
+    margin-top: 70px;
+    }
+    #name{
+        display: flex;
+    }
+    h2{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+    }
+    body{
+        background-color: rgb(246, 191, 246);
+    }
+    #navbar{
+        font-size: 30px;
+        margin-left: 10px;
+        justify-content: space-between;
+        display: flex;
+        gap: 10px;
+    }
+    a{
+        text-decoration: none;
+    }
+    #details{
+        font-size: 40px;
+        gap: 200px;
+    }
+    #logo{
+        width: 60px;
+        height: 60px;
+    }
+}
+@media  screen and (min-width:768px) and (max-width: 912px) {
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+

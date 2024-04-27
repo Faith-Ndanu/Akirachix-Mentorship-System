@@ -1,0 +1,217 @@
+body{
+    margin-left: 400px;
+    background-color: rgb(246, 191, 246);
+    font-size: larger;
+    font-weight: 200px;
+    gap: 20px;
+
+}
+#icons{
+    width: 60px;
+    height: 70px;
+    display: flex;
+    gap: 70px;
+    /* margin-left: 100px; */
+}
+a{
+    text-decoration: none;
+}
+button{
+width: 150px;
+height: 35px;
+background-color: rgb(205, 164, 243);
+border-radius: 100px;
+font-size: large;
+}
+#login{
+    margin-left: 200px;
+}
+
+input{
+  border-radius: 100px;
+  height: 30px;
+  width: 220px;
+  background:  rgb(190, 179, 200);
+  font-size: 19px;
+}
+
+a{
+    text-decoration: none;
+}
+#form{
+    background-color: rgb(238, 234, 230);
+    padding: 50px 10px 50px 10px;
+    margin-right: 500px;
+    margin-bottom: 280px;
+    margin-top: 100px;
+}
+@media screen and (min-width:280px) and (max-width:460px){
+        
+    body{
+        margin-left: 00px;
+        background-color: rgb(246, 191, 246);
+        font-size: larger;
+        font-weight: 200px;
+    }
+    #login{
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+    #icons{
+        width: 60px;
+        height: 70px;
+        display: flex;
+        gap: 80px;
+        margin-left: 0px;
+        
+    }
+   
+      #form{
+        background-color: rgb(238, 234, 230);
+        padding: -0px 0px 0px 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;    
+}
+    button{
+        height: 40px;
+        background-color: rgb(212, 174, 248);
+        border-radius: 100px;
+        width: 180px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+h3{
+    margin-left: 0px;
+}
+
+}
+
+
+/* @media  screen and (min-width:1280px) and (max-width: 2460px) {
+    body{
+        margin-left: 00px;
+        background-color: rgb(246, 191, 246);
+        font-size: x-large;
+        font-weight: 200px;
+        gap: 20px;
+    
+    }
+    #icons{
+        width: 60px;
+        height: 70px;
+        display: flex;
+        gap: 70px;
+        /* margin-left: 100px; */
+    /* }
+    a{
+        text-decoration: none;
+    }
+    button{
+    width: 150px;
+    height: 55px;
+    background-color: rgb(205, 164, 243);
+    border-radius: 100px;
+    font-size: large;
+    }
+    #login{
+        margin-left: 200px;
+    }
+    
+    input{
+      border-radius: 100px;
+      height: 50px;
+      width: 220px;
+      background:  rgb(190, 179, 200);
+      font-size: 19px;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    #form{
+        background-color: rgb(238, 234, 230);
+        padding: 90px 20px 90px 20px;
+        margin-right: 500px;
+        margin-bottom: 280px;
+        margin-top: 10px;
+        margin-left: 300px;
+    }
+} */
+@media  screen and (min-width:768px) and (max-width: 912px) {
+    body{
+        margin-left: 00px;
+        background-color: rgb(246, 191, 246);
+        font-size: x-large;
+        font-weight: 200px;
+        gap: 20px;
+    
+    }
+    #icons{
+        width: 60px;
+        height: 70px;
+        display: flex;
+        gap: 70px;
+        /* margin-left: 100px; */
+    }
+    a{
+        text-decoration: none;
+    }
+    button{
+    width: 150px;
+    height: 55px;
+    background-color: rgb(205, 164, 243);
+    border-radius: 100px;
+    font-size: x-large;
+    }
+    #login{
+        margin-left: 200px;
+    }
+    
+    input{
+      border-radius: 100px;
+      height: 50px;
+      width: 220px;
+      background:  rgb(190, 179, 200);
+      font-size: 19px;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    #form{
+        background-color: rgb(238, 234, 230);
+        padding: 90px 20px 90px 20px;
+        margin-right: 0px;
+        margin-bottom: 280px;
+        margin-top: 80px;
+        margin-left: 6px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
