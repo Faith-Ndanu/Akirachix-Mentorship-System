@@ -19,12 +19,15 @@ body{
 a{
     text-decoration: none;
 }
-
+#logo{
+    width: 40px;
+    height: 40px;
+}
 
 
 @media screen and (min-width:280px) and (max-width:460px) {
     #content{
-        font-size: large;
+    font-size: large;
     margin-left: 0px;
     margin-right: 0px;
     }
@@ -34,9 +37,9 @@ a{
     }
     #navbar{
         font-size: 12px;
-        justify-content: space-between;
-        display: flex;
-        gap: 0px;
+        /* justify-content: space-between; */
+        display: grid;
+        gap: 3%;
     }
     #logo{
         width: 30px;

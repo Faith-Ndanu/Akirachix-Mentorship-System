@@ -1,3 +1,4 @@
+
 .container{
     display: flex;
     flex-direction: column;
@@ -11,12 +12,12 @@
     height: 700px;
     background-color: rgb(235, 228, 219);
 }
-.achievements{
+.goals{
     display: flex;
     justify-content: space-between;
     padding: 1em;
 }
-.achievement-value{
+.goal-value{
     background: transparent;
     border: none;
     outline: none;
@@ -34,7 +35,7 @@ a{
     text-decoration: none;
     font-size: x-large;
 }
-.achievements:has(.achievement-checkbox:checked){
+.todo:has(.goal-checkbox:checked){
     color: #555555;
     background: #eeee;
     text-decoration: line-through;
@@ -46,7 +47,10 @@ body{
 h1{
 text-align: center;
 }
-
+#logo{
+    width: 30px;
+    height: 30px;
+}
 @media screen and (min-width:280px) and (max-width:460px) {
     .container{
         width: 270px;
@@ -56,9 +60,8 @@ text-align: center;
         margin-left: 0px;
     }
     #navbar{
-        display: flex;
-        gap: 4%;
-        font-size: larger;
+        display: grid;
+        gap: 9px;
     }
     a{
         text-decoration: none;
@@ -69,46 +72,106 @@ text-align: center;
         height: 30px;
     }
 }
-
 /* @media  screen and (min-width:1280px) and (max-width: 2460px) {
-
     .container{
-        width: 900px;
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
         box-shadow: 3px 3px 10px rgb(0,0,0.15);
         border-top: 5px solid green;
         border-bottom: 5px solid green;
-        margin-left: 80px;
-        margin-top: 30px;
+        justify-content: center;
+        margin-left: 0px;
+        margin-top: 40px;
+        height: 700px;
+        background-color: rgb(235, 228, 219);
+    }
+    .goals{
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+    }
+    .goal-value{
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 1em;
+        font-weight: bold;
+        flex-grow: 1;
     }
     #navbar{
+        font-size: 30px;
+        justify-content: space-between;
         display: flex;
-        gap: 4%;
-        font-size: xx-large;
+        gap: 150px;
     }
     a{
         text-decoration: none;
+        font-size: x-large;
     }
+    .todo:has(.goal-checkbox:checked){
+        color: #555555;
+        background: #eeee;
+        text-decoration: line-through;
+        order: 1;
+    }
+    body{
+        background-color: rgb(241, 190, 207);
+    }
+    h1{
+    text-align: center;
+    } */
 
 
-} */
 
 @media  screen and (min-width:768px) and (max-width: 912px) {
-
     .container{
+        display: flex;
+        flex-direction: column;
         width: 750px;
         box-shadow: 3px 3px 10px rgb(0,0,0.15);
         border-top: 5px solid green;
         border-bottom: 5px solid green;
-        margin-left: 10px;
-        margin-top: 30px;
+        justify-content: center;
+        margin-left: 0px;
+        margin-top: 40px;
+        height: 800px;
+        background-color: rgb(235, 228, 219);
+        font-size: larger;
+    }
+    .goals{
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+    }
+    .goal-value{
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 1em;
+        font-weight: bold;
+        flex-grow: 1;
     }
     #navbar{
+        font-size: 30px;
+        justify-content: space-between;
         display: flex;
-        gap: 4%;
-        font-size: xx-large;
+        gap: 10px;
     }
     a{
         text-decoration: none;
+    }
+    .todo:has(.goal-checkbox:checked){
+        color: #555555;
+        background: #eeee;
+        text-decoration: line-through;
+        order: 1;
+    }
+    body{
+        background-color: rgb(241, 190, 207);
+    }
+    h1{
+    text-align: center;
     }
     #logo{
         width: 60px;
@@ -116,9 +179,11 @@ text-align: center;
     }
 
 
+
+
+
+
+
 }
-
-
-
 
 

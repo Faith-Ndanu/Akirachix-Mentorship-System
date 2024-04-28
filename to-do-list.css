@@ -111,15 +111,15 @@ a{
     text-decoration: none;
 }
 #logo{
-    width: 100px;
-    height: 80px;
+    width: 30px;
+    height: 30px;
 }
 
 @media screen and (min-width:280px) and (max-width:460px){
     #navbar{
-        font-size: small;
-margin-left: 0px;
-        display: flex;
+        font-size: 15px;
+        margin-left: 0px;
+        display: grid;
         gap: 11px;
     }
     .todo_list{

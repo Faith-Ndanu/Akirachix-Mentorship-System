@@ -36,8 +36,9 @@ a{
     gap: 200px;
 }
 #logo{
-    width: 100px;
-    height: 80px;
+    width: 30px;
+    height: 30px;
+    margin-left: 0px;
 }
 
 @media screen and (min-width:280px) and (max-width:460px){
@@ -48,8 +49,8 @@ a{
     #navbar{
         font-size: 15px;
         margin-left: 0px;
-        display: flex;
-        gap: 0px;
+        display: grid;
+        gap: 5px;
     }
     #mentorprofile{
         display: grid;
@@ -122,14 +123,13 @@ a{
         height: 60px;
     }
 }
-@media  screen and (min-width:768px) and (max-width: 912px) {
 
 
 
 
 
 
-}
+
 
 
 
