@@ -1,11 +1,14 @@
 #content{
-    font-size: x-large;
-margin-left: 300px;
-margin-right: 200px;
+font-size: larger;
+margin-left: 0px;
+margin-right: 0px;
 }
 h2{
     font-size: 40px;
-    text-align: center;
+    /* text-align: center; */
+    font-size: larger;
+    margin-left: 570px;
+    
 }
 body{
     background-color: rgb(246, 203, 246);
@@ -23,6 +26,21 @@ a{
     width: 40px;
     height: 40px;
 }
+#bornAcrime{
+display: grid;
+gap: 60px;
+font-size: larger;
+margin-left: 100px;
+margin-right: 150px;
+
+}
+#trevoh{
+    width: 400px;
+    height: 450px;
+    margin-left: 270px;
+    margin-top: 20px;
+    border-radius: 0px;
+}
 
 
 @media screen and (min-width:280px) and (max-width:460px) {
@@ -31,20 +49,39 @@ a{
     margin-left: 0px;
     margin-right: 0px;
     }
-    h2{
-        font-size: 20px;
-        text-align: center;
-    }
+  
     #navbar{
         font-size: 12px;
         /* justify-content: space-between; */
         display: grid;
         gap: 3%;
     }
+    #trevoh{
+        width: 270px;
+        height: 200px;
+        margin-left: 0px;
+        margin-top: 20px;
+        border-radius: 0px;
+    }
+    
     #logo{
         width: 30px;
         height: 30px;
     }
+    #bornAcrime{
+        display: grid;
+        gap: 60px;
+        font-size: larger;
+        margin-left: 0px;
+        margin-right: 150px;
+        
+        }
+        h2{
+            font-size: 19px;
+            /* text-align: center; */
+            margin-left: 0px;
+            
+        }
 }
 /* @media  screen and (min-width:1280px) and (max-width: 2460px) {
     #content{
@@ -96,6 +133,16 @@ a{
         width: 60px;
         height: 60px;
     }
-
+    #bornAcrime{
+        display: grid;
+        gap: 60px;
+        font-size: larger;
+        
+        }
+        #trevoh{
+            width: 800px;
+            height: 850px;
+            /* margin-left: 300px; */
+        }
 
 }
